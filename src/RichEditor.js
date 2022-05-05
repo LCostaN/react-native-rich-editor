@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {WebView} from 'react-native-webview';
+import AutoHeightWebView from 'react-native-autoheight-webview';
 import {actions, messages} from './const';
 import {Keyboard, Platform, StyleSheet, TextInput, View} from 'react-native';
 import {createHTML} from './editor';
@@ -261,7 +261,7 @@ export default class RichTextEditor extends Component {
         const {html: viewHTML} = that.state;
         return (
             <>
-                <WebView
+                <AutoHeightWebView
                     useWebKit={true}
                     scrollEnabled={false}
                     hideKeyboardAccessoryView={true}
