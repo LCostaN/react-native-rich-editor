@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import {Button, StyleSheet, View, SafeAreaView} from 'react-native';
-import {WebView} from 'react-native-webview';
+import WebView from 'react-native-autoheight-webview';
 
 type Props = {};
 type State = {};

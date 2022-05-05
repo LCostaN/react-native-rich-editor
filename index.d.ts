@@ -1,9 +1,9 @@
-import {WebViewProps} from 'react-native-webview';
+import {AutoHeightWebViewProps} from 'react-native-autoheight-webview';
 import {ImageSourcePropType, StyleProp, ViewStyle} from 'react-native';
 import React from 'react';
 
 /** The RichTextEditor accepts all props from Webview */
-export interface RichEditorProps extends WebViewProps {
+export interface RichEditorProps extends AutoHeightWebViewProps {
     /**
      * Used for placement of editor
      */
